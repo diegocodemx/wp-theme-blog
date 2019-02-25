@@ -1,0 +1,303 @@
+/*
+Theme Name: DeigoCode Blog
+Theme URI: 
+Description: Tema usado para el blog DiegoCode
+Version: 1
+Author: Diego MM
+Author URL: 
+*/
+
+/*-------- Estilos Generales --------*/
+/*-----------------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #ffffff;
+    font-size: 11pt;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+a{
+    color: #00285c;   
+}
+a:hover{
+    text-decoration: none;
+}
+/*------------ Header ---------------*/
+/*-----------------------------------*/
+header{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 30px;
+}
+header #logo{
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header #logo p{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 0px;
+}
+header #logo span{
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300; 
+    text-align: right;
+}
+header nav{
+    margin-bottom: 20px;
+}
+header #image-logo img{
+    width: 75px;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+header nav ul li a{
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 10px;
+}
+header nav ul li a:hover{
+    color: #00ff4b;
+    text-decoration: none;
+}
+/*-------------- Main ---------------*/
+/*-----------------------------------*/
+#main{
+    width: 90%;
+    margin: 0px auto;
+}
+/*------------ Slideshow ------------*/
+#main #slideshow{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 2%;
+    background: #e2e2e2;
+}
+#main #slideshow article h2{
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+}
+#main #slideshow article .date{
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #23282d;
+}
+#main #slideshow article .date ul{
+    list-style: none;
+    display: inline-block;
+}
+#main #slideshow article p{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+#main #slideshow article a:hover{
+    text-decoration: none;
+    color: #0062e8;
+}
+#main #slideshow .slidesjs-pagination{
+    text-align: center;
+}
+#main #slideshow .slidesjs-pagination li{
+    background: #a4a4a4;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 0px;
+}
+#main #slideshow .slidesjs-pagination li a{
+    width: 15px;
+    height: 15px;
+    display: block;
+    font-size: 0px;
+}
+#main #slideshow .slidesjs-pagination li .active{
+    background: #00ff4b;
+}
+/*---------- Article List -----------*/
+#main #article-list article{
+    margin-bottom: 50px;
+}
+#main #article-list article h2{
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: left;
+}
+#main #article-list article .date{
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #23282d;
+}
+#main #article-list article .date ul{
+    list-style: none;
+    display: inline-block;
+}
+#main #article-list article .extract{
+    text-align: justify;
+    font-size: 1rem;
+}
+#main #article-list article a:hover{
+    text-decoration: none;
+    color: #0062e8
+}
+#main #article-list article a.btn{
+    border-color: #e2e2e2;
+    color: #a4a4a4;
+    margin-top: 10px;
+}
+#main #article-list article a.btn:hover{
+    color: #e2e2e2;
+    background: #00285c;
+    border-color: #00285c;
+}
+#main #article-list #pagination{
+    margin-bottom: 50px;
+}
+#main #article-list #pagination a{
+    font-size: 1.5rem;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #a4a4a4;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#main #article-list #pagination a:hover{
+    text-decoration: none;
+    color: #23282d;
+}
+/*-------------- Aside --------------*/
+.widget{
+    margin-bottom: 50px;
+}
+.widget h3{
+    font-size: 0.9rem;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #23282d;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.widget ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.widget ul li a{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    color: #a4a4a4;
+}
+.widget ul li a:hover{
+    text-decoration: none;
+    color: #23282d;
+}
+/*------------- Footer --------------*/
+/*-----------------------------------*/
+footer{
+    background: #23282d;
+}
+footer #ft-widgets{
+    width: 90%;
+    margin: 0px auto;
+}
+footer .widget{
+    overflow: hidden;
+    clear: both;
+    margin-top: 30px;
+}
+footer .widget h3{
+    color: #e2e2e2;
+}
+footer .widget ul li a:hover{
+    text-decoration: none;
+    color: #e2e2e2;
+}
+footer #nav-footer a{
+    color: #a4a4a4;
+}
+footer #nav-footer a:hover{
+    text-decoration: none;
+    color: #e2e2e2;
+}
+/*-------------- Blog ---------------*/
+/*-----------------------------------*/
+#main #article-list #cat-name{
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #23282d;
+    font-weight: 300;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e2e2e2;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+/*--------- Article Single ----------*/
+/*-----------------------------------*/
+#main #article-single article{
+    margin-bottom: 50px;
+}
+#main #article-single article h2{
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+#main #article-single article img{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#main #article-single article .date{
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #23282d;
+}
+#main #article-single article .extract{
+    text-align: justify;
+    font-size: 1rem;
+}
+#main #article-single article .date ul{
+    list-style: none;
+    display: inline-block;
+}
+/*------------ Comments -------------*/
+#main #article-single #comments-article{
+    margin-bottom: 40px;
+}
+#main #article-single #comments-article h3{
+    font-size: 1.5rem;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #a4a4a4;
+}
+#main #article-single #comments-box{
+    height: 70px;
+    border: 1px solid #e2e2e2;
+}
