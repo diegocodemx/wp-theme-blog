@@ -1,3 +1,4 @@
+<?php include 'functions/menu_walker.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,9 +46,9 @@
                     wp_nav_menu(
                         array(
                             'container' => 'ul',
-                            'menu_class' => 'nav justify-content-center',
-                            'items_wrap' => '<ul id="menu-top">%3$s</ul>',
-                            'theme_location' => 'menu'  
+                            'items_wrap' => '<ul id="menu-top" class="nav justify-content-center">%3$s</ul>',
+                            'theme_location' => 'menu',
+                            'walker'  => new menu_walker
                     ));
                 ?>
             </nav>

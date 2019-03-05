@@ -10,6 +10,7 @@
     header nav ul li a:hover{
         background: #00285c;
         color: #00ff4b;
+        border-radius: 5px;
     }    
     #main #no-slide{
         display: none;
