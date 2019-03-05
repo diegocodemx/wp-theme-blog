@@ -1,5 +1,6 @@
 <?php
     register_nav_menu('menu','Menu superior');
+    register_nav_menu('social-menu','Menu social inferior');
 
     add_theme_support('post-thumbnails');
     add_image_size('slider_thumbs', 470, 280, true);

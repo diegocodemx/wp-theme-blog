@@ -1,4 +1,7 @@
-<?php include 'functions/menu_walker.php';?>
+<?php 
+include 'functions/menu_walker.php';
+include 'functions/social_menu_walker.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

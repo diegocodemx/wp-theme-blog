@@ -230,6 +230,9 @@ footer .widget ul li a:hover{
     text-decoration: none;
     color: #e2e2e2;
 }
+footer #nav-footer{
+    margin-top: 50px;
+}
 footer #nav-footer a{
     color: #a4a4a4;
 }
