@@ -20,6 +20,7 @@ class social_menu_walker extends Walker_Nav_Menu
             and $attributes .= ' rel="' . esc_attr($item->xfn) . '"';
 
         $attributes .= ' class="nav-link"';
+        $attributes .= ' target="_blank"';
 
         $attributes = trim($attributes);
         $title = apply_filters( 'the_title', $item->title, $item->ID );

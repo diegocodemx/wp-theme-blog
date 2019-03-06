@@ -79,6 +79,9 @@ header nav ul li a:hover{
     padding: 2%;
     background: #e2e2e2;
 }
+#main #slideshow .slide{
+    margin-bottom: 0px;
+}
 #main #slideshow article h2{
     font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -157,6 +160,9 @@ header nav ul li a:hover{
 #main #article-list article a:hover{
     text-decoration: none;
     color: #0062e8
+}
+#main #article-list article img{
+    margin-bottom: 20px;
 }
 #main #article-list article a.btn{
     border-color: #e2e2e2;

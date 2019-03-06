@@ -3,8 +3,8 @@
     register_nav_menu('social-menu','Menu social inferior');
 
     add_theme_support('post-thumbnails');
-    add_image_size('slider_thumbs', 470, 280, true);
-    add_image_size('list_articles_thumbs', 450, 370, true);
+    add_image_size('slider_thumbs', 480, 320, true);
+    add_image_size('list_articles_thumbs', 480, 320, true);
 
     register_sidebar( array(
         'name' => 'Sidebar',
